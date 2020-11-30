@@ -19,3 +19,10 @@
 - `touch index.js`
 - index.jsを他からコピー or git pull
 - `node src`
+
+# geocoding api
+- json結果の緯度経度の場所
+    - 緯度
+        - results.geometry.location.lat
+    - 経度
+        - results.geometry.location.lng
