@@ -7,6 +7,7 @@
 # frontend
 ## 初期セットアップ
 - wtg-frontend配下のファイルを全て削除。
+- `rm -rf *`
 - `git init`
 - `git remote add origin https://github.com/chokunari/wtg-frontend.git`
 - `git pull origin master`
@@ -15,9 +16,13 @@
 # backend
 ## 初期セットアップ
 - `express -e wtg-backend`
+    - これやらずにgit pullすれば良いかも。
+- `cd wtg-backend`
 - `mkdir src`
 - `touch index.js`
-- index.jsを他からコピー or git pull
+- `git init`
+- `git remote add origin https://github.com/chokunari/wtg-backend.git`
+- `git pull origin master`
 - `node src`
 
 # geocoding api
