@@ -23,6 +23,7 @@
 - `git init`
 - `git remote add origin https://github.com/chokunari/wtg-backend.git`
 - `git pull origin master`
+- .envをwtg-backend配下に作成。APIKEY=GoogleMapAPIKEYの形で定義。(認証情報なので.gitignoreに入れてる。)
 - `node src`
 
 # geocoding api
